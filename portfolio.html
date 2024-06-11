@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website Design P-1/2</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style4.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="header">
+<nav>
+<h3> Sohan </h3>
+<div class="nav-menu" id="navemenus">
+	<span onclick="hideMenu()"> X </span>
+<ul>
+<li> <a href="#">Home</a></li>
+<li> <a href="#">About Us</a></li>
+<li> <a href="#">Contact US</a></li>
+<li><input type="text" name="search"><input type="submit" name="Submit" value="search">	</li>
+</ul>
+</div>
+<span onclick="openMenu()"> Menu </span>
+
+</nav>
+
+<div class="titledescription">
+<h1> TopcoderBD	</h1>
+<p> It's a trusted Youtube channel to learn web design.</p>
+<a href="#"> Hear Me</a> &nbsp;<a href="#">About Me</a>
+<img src="assets/images/profil.png" class="profil-image">
+</div>
+</div>
+
+<div class="about-me">
+<h1> About Me </h1>
+<div class="row">
+<div class="about-me-col">
+<img src="assets/images/profil1.png">	
+</div>
+
+<div class="about-me-col">
+<h2>Hellow,This is Sohan </h2>
+<p> I am a professionsl web designer and developer</p>	
+</div>	
+</div>
+</div>
+
+<div class="skills">
+<h1>My Skills</h1>
+<div class="row">
+	<div class="skills-col">
+	<h2> Academic Qualification</h2>
+	<p> Diploma :Civil Engineering
+		   AMIE :Civil Engineering ( On Going )</p>
+</div>
+<div class="skills-col">
+	<h2>Programming</h2>
+	<ul>
+		<li>
+			<h3>html</h3> <span class="bar"> <span class="html"></span></span>
+		</li>
+		<li>
+			<h3>css</h3> <span class="bar"> <span class="css"></span></span>
+		</li>
+		<li>
+			<h3>php</h3> <span class="bar"> <span class="php"></span></span>
+		</li>
+		<li>
+			<h3>JavaScript</h3> <span class="bar"> <span class="JavaScript"></span></span>
+		</li>
+    </ul>
+        
+
+</div>
+    </div>	
+          </div>
+
+<div class="services">
+	<h1> My Services </h1> <br><br>
+
+<div class="row">
+<div class="services-col">
+	<h2>Hardware</h2>
+	<p>Can discuss hardware related issues with me.<br>
+	Hope this can help you.</p>
+	</div>
+
+<div class="services-col">
+	<h2>Software</h2>
+	<p>Can discuss software related issues with me.<br>
+	Hope this can help you.</p>
+   </div>
+
+<div class="services-col">
+	<h2>Programming</h2>
+	<p>Can discuss programming related issues with me.<br>
+	Hope this can help you.</p>
+   </div>
+
+</div>
+</div>
+
+
+<div class="portfolios">
+	<h1> My Portfolios </h1> <br><br>
+
+<div class="row">
+<div class="portfolios-col">
+	<img src="assets/images/p1.jpg">
+	<div class="overlay">
+		<h3>html & css </h3>
+	</div>
+	</div>
+
+<div class="portfolios-col">
+	<img src="assets/images/p2.png">
+	<div class="overlay">
+		<h3>html & css </h3>
+	</div>
+   </div>
+
+<div class="portfolios-col">
+	<img src="assets/images/p3.jpg">
+	<div class="overlay">
+		<h3>html & css </h3>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="testimonial">
+<h1> What people say </h1>
+<p>Here are people's opinions.</p>
+<div class="row">
+<div class="testimonial-col">
+	<img src="assets/images/t1.jpg">
+	<div>
+    <p>I think his work is good</p>
+	<h3>Anabil</h3>
+    </div>
+</div>
+
+
+<div class="testimonial-col">
+	<img src="assets/images/t2.jpg">
+	<div>
+    <p>I am satisfied with his work</p>
+	<h3>Nabil</h3>
+    </div>
+</div>
+	
+</div>
+</div>
+
+
+<div class="call-to-action">
+<h1>Contact us for any of your needs.</h1>
+<a href="#">Follow Me</a>	
+</div>
+
+<div class="footer">
+<div class="row">
+
+<div class="footer-col">
+	<h1> Company</h1>
+	<ul>
+		<li><a href="#">About Me</a></li>
+		<li><a href="#">My Services</a></li>
+		<li><a href="#">Privacy Policy</a></li>
+		<li><a href="#">My Program</a></li>
+	</ul>
+</div>
+
+<div class="footer-col">
+	<h1> Get Help</h1>
+	<ul>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">Status</a></li>
+		<li><a href="#">Order</a></li>
+		<li><a href="#">Payment Option</a></li>
+	</ul>
+</div>
+
+<div class="footer-col">
+	<h1>Follow Me</h1>
+	<div class="s-link">
+	<a href="#"><i class="fa-brands fa-facebook"></i></a>
+	<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+	<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+	</div>
+</div>
+
+</div>	
+</div>
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+<script type="text/javascript">
+var navemenus= document.getElementById('navemenus')	
+function openMenu () {
+navemenus.style.right="0";
+}
+function hideMenu () {
+navemenus.style.right="-300px";
+}
+
+</script>
+	
+
+</body>
+
+</html>
